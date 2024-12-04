@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Moq;
 using ToDo.Core.Application.RepositoryInterfaces;
-using ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateOne;
+using ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateCompletionPercentage;
 using ToDo.Core.Domain.Entities;
 using Xunit;
 

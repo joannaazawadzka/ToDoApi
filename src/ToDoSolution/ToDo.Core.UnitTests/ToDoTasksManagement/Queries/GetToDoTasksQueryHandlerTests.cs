@@ -2,7 +2,6 @@
 using Moq;
 using ToDo.Core.Application.RepositoryInterfaces;
 using ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany;
-using ToDo.Core.Application.ToDoTasksManagement.Queries.GetOne;
 using ToDo.Core.Domain.Entities;
 using Xunit;
 

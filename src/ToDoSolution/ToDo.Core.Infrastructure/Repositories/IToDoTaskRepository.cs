@@ -56,7 +56,7 @@ namespace ToDo.Core.Infrastructure.Repositories
                     query = query.Where(x => x.ExpiryAt > startOfToday && x.ExpiryAt < endOfToday);
                     break;
                 case GetToDoTasksFilterEnum.OnlyNextDay:
-                    var startOfNextDay = new DateTime(currentDate.AddDays(1).Year, currentDate.AddDays(1).Month, currentDate.AddDays(1).Day); 
+                    var startOfNextDay = new DateTime(currentDate.AddDays(1).Year, currentDate.AddDays(1).Month, currentDate.AddDays(1).Day);
                     var endOfNextDay = startOfNextDay.AddDays(1).AddTicks(-1);
                     query = query.Where(x => x.ExpiryAt > startOfNextDay && x.ExpiryAt < endOfNextDay);
                     break;

@@ -2,7 +2,7 @@
 using ToDo.Core.Domain.Entities;
 using Xunit;
 
-namespace ToDo.Core.UnitTests.Domain.Entities
+namespace ToDo.Core.UnitTests.ToDoTasksManagement.Entities
 {
     public class ToDoTaskEntityTests
     {

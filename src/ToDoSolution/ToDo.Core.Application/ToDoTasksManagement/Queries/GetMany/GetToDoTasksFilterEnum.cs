@@ -1,6 +1,4 @@
-﻿using ToDo.Core.Domain.Entities;
-
-namespace ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany
+﻿namespace ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany
 {
     /// <summary>
     /// Enum representing various filter criteria for retrieving ToDo tasks.

@@ -1,5 +1,4 @@
 ﻿using ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany;
-using ToDo.Core.Application.ToDoTasksManagement.Queries.GetOne;
 using ToDo.Core.Domain.Entities;
 
 namespace ToDo.Core.Application.RepositoryInterfaces

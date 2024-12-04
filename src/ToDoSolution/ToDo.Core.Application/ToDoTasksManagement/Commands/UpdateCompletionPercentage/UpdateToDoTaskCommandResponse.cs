@@ -1,6 +1,6 @@
 ﻿using ToDo.Core.Domain.Entities;
 
-namespace ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateOne
+namespace ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateCompletionPercentage
 {
     public class UpdateToDoTaskCommandResponse
     {

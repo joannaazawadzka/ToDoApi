@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using ToDo.Core.Application.RepositoryInterfaces;
 
-namespace ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateOne
+namespace ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateCompletionPercentage
 {
     public class UpdateToDoTaskCommand : IRequest<UpdateToDoTaskCommandResponse>
     {

@@ -6,6 +6,7 @@ using ToDo.Core.Api.Models.ToDoTasksManagement.UpdateToDoTask;
 using ToDo.Core.Application.ToDoTasksManagement.Commands.CreateOne;
 using ToDo.Core.Application.ToDoTasksManagement.Commands.DeleteOne;
 using ToDo.Core.Application.ToDoTasksManagement.Commands.MarkAsDone;
+using ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateCompletionPercentage;
 using ToDo.Core.Application.ToDoTasksManagement.Commands.UpdateOne;
 using ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany;
 using ToDo.Core.Application.ToDoTasksManagement.Queries.GetOne;

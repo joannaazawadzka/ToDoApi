@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using ToDo.Core.Application.RepositoryInterfaces;
-using ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany;
+using ToDo.Core.Application.ToDoTasksManagement.Queries.GetOne;
 
-namespace ToDo.Core.Application.ToDoTasksManagement.Queries.GetOne
+namespace ToDo.Core.Application.ToDoTasksManagement.Queries.GetMany
 {
     public class GetToDoTasksQuery : IRequest<ICollection<GetToDoTaskQueryResponse>>
     {
